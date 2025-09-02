@@ -1,0 +1,24 @@
+# Boltz-2 requirements for protein-ligand binding predictions
+# Core package
+boltz==0.3.0
+
+# Dependencies (will be installed automatically with boltz)
+# Listed here for reference:
+# torch>=2.0.0
+# numpy
+# scipy
+# biotite
+# dm-tree
+# einops
+# hydra-core
+# ml-collections
+# openmm
+# pandas
+# rdkit
+# lightning
+# wandb
+# modelcif
+
+# Note: pdbfixer is included with openmm and doesn't need separate installation
+# If you encounter issues, you can install openmm via conda:
+# conda install -c conda-forge openmm pdbfixer
