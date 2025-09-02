@@ -1,0 +1,10 @@
+version: 1
+sequences:
+  - protein:
+      id: A
+      sequence: WQYDVLAADHVLDPIITSEFDWLLYSPSLVAQNSDPCCDAASLWRTV
+      # This is the binding pocket region of HTR2A (residues 100-148)
+      # Much smaller than full protein for memory-constrained systems
+  - ligand:
+      id: B
+      ccd: PSI  # Psilocin CCD code
